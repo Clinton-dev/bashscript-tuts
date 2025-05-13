@@ -1,0 +1,907 @@
+2025-05-08T06:56:12.828454+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[915]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-08T06:56:28.042815+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[940]: The system will reboot now!
+2025-05-08T06:56:28.072900+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[940]: System is rebooting.
+2025-05-08T06:56:28.087290+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-08T07:01:28.511486+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[910]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-08T07:01:28.511645+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[910]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-08T07:01:28.511784+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[910]: Finished loading, compiling and executing 16 rules
+2025-05-08T07:01:28.513124+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[910]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-08T07:01:28.761156+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-08T07:01:28.761197+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-08T07:01:28.761227+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-08T07:01:28.761258+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-08T07:01:28.761314+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-08T07:01:28.761345+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: New seat seat0.
+2025-05-08T07:01:29.390011+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-08T07:01:29.427774+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[933]: New session c1 of user gdm.
+2025-05-08T07:01:29.449556+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-08T07:03:54.603534+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-08T07:03:54.604491+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-08T07:03:54.608558+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Finished loading, compiling and executing 16 rules
+2025-05-08T07:03:54.610368+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-08T07:03:54.851206+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-08T07:03:54.851264+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-08T07:03:54.851296+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-08T07:03:54.851326+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-08T07:03:54.851357+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-08T07:03:54.851394+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: New seat seat0.
+2025-05-08T07:03:54.937627+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-08T07:03:55.164611+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: New session c1 of user gdm.
+2025-05-08T07:03:55.196096+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-08T07:03:59.414838+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-08T07:05:01.761266+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2320]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:05:01.763235+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2320]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:07:48.719509+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-08T07:07:48.719688+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-08T07:07:48.727675+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-08T07:07:48.745190+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: New session 3 of user clinton.
+2025-05-08T07:07:48.758287+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-08T07:07:48.988597+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T07:07:50.921678+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2369]: The Secret Service was already initialized
+2025-05-08T07:07:50.921858+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2667]: discover_other_daemon: 1
+2025-05-08T07:07:50.923946+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2369]: The PKCS#11 component was already initialized
+2025-05-08T07:07:50.924090+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2668]: discover_other_daemon: 1
+2025-05-08T07:07:50.924299+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2670]: discover_other_daemon: 1
+2025-05-08T07:07:52.143419+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Registered Authentication Agent for unix-session:3 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-08T07:07:53.590212+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[923]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-08T07:07:53.732077+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-08T07:07:53.735305+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Session c1 logged out. Waiting for processes to exit.
+2025-05-08T07:07:53.736548+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Removed session c1.
+2025-05-08T07:08:03.621765+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2369]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-05-08T07:08:53.820725+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-08T07:08:53.821232+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[4078]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-08T07:14:42.752306+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T07:14:52.697821+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-08T07:14:52.698303+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[5808]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-08T07:15:01.767904+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[5888]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:15:01.769425+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[5888]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:17:01.772744+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[6458]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:17:01.774945+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[6458]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:25:01.778933+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:25:01.780456+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8185]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:30:01.783604+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8600]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:30:01.784726+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8600]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:32:41.507419+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T07:35:01.788243+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[9380]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:35:01.789571+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[9380]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:45:01.793942+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11166]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:45:01.795469+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11166]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:55:01.799672+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[13071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T07:55:01.801355+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[13071]: pam_unix(cron:session): session closed for user root
+2025-05-08T07:59:48.897955+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts/test ; USER=root ; COMMAND=/usr/bin/chmod +x passcheck.sh
+2025-05-08T07:59:48.899788+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-08T07:59:48.899868+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-08T08:05:01.806076+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[14816]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:05:01.808639+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[14816]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:06:32.518637+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts/test ; USER=root ; COMMAND=/usr/bin/chmod +x countdown.sh
+2025-05-08T08:06:32.522019+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-08T08:06:32.522086+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-08T08:15:01.815245+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16694]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:15:01.816744+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16694]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:17:01.819494+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[17018]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:17:01.820941+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[17018]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:21:02.840037+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts/test ; USER=root ; COMMAND=/usr/bin/chmod +x fizzbuzz.sh
+2025-05-08T08:21:02.846842+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-08T08:21:02.846895+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-08T08:25:01.824654+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18690]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:25:01.826093+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18690]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:30:01.829748+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19453]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:30:01.830884+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19453]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:35:01.834336+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19762]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:35:01.835779+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19762]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:39:07.536016+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T08:45:01.840071+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[21101]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:45:01.841383+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[21101]: pam_unix(cron:session): session closed for user root
+2025-05-08T08:55:01.845559+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[23281]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T08:55:01.847075+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[23281]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:05:01.851188+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25044]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:05:01.852926+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25044]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:09:10.896523+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T09:10:26.826044+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-08T09:15:01.856726+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[26800]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:15:01.858304+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[26800]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:17:01.861086+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27222]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:17:01.862544+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27222]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:25:01.871221+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[29444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:25:01.872759+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[29444]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:30:01.876057+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[30705]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:30:01.877096+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[30705]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:35:01.880615+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31863]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:35:01.882030+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31863]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:45:01.885826+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[33718]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:45:01.887266+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[33718]: pam_unix(cron:session): session closed for user root
+2025-05-08T09:55:01.894592+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[35639]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T09:55:01.896398+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[35639]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:05:01.900132+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[37237]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:05:01.901501+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[37237]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:06:28.302572+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T10:15:01.909698+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39411]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:15:01.912220+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39411]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:17:01.914981+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39733]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:17:01.919053+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39733]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:25:01.925492+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42023]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:25:01.927493+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42023]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:30:01.930987+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42906]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:30:01.932050+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42906]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:35:01.935050+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[43749]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:35:01.936607+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[43749]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:45:01.940822+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[45705]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:45:01.942272+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[45705]: pam_unix(cron:session): session closed for user root
+2025-05-08T10:47:14.540194+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[916]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=2367 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=915 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-08T10:55:01.946095+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47958]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T10:55:01.947647+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47958]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:05:01.951799+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:05:01.953251+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49872]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:15:01.957453+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51720]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:15:01.958958+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51720]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:17:01.961742+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51952]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:17:01.966050+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51952]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:17:46.175071+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T11:25:01.979917+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[54139]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:25:01.982814+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[54139]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:30:01.986083+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[55075]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:30:01.987078+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[55075]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:35:01.990243+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[56112]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:35:01.991973+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[56112]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:45:01.995972+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[57996]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:45:01.997343+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[57996]: pam_unix(cron:session): session closed for user root
+2025-05-08T11:55:02.001412+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[59711]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T11:55:02.002943+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[59711]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:05:01.006727+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[61813]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:05:01.008214+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[61813]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:15:01.013198+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[63588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:15:01.014874+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[63588]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:17:01.017625+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[63950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:17:01.021325+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[63950]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:25:01.024730+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[65566]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:25:01.026332+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[65566]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:30:01.029239+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[66467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:30:01.030471+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[66467]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:35:01.033825+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[67494]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:35:01.037188+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[67494]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:45:01.041754+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[69421]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:45:01.043570+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[69421]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:55:01.052603+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[71389]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T12:55:01.053924+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[71389]: pam_unix(cron:session): session closed for user root
+2025-05-08T12:56:45.405625+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-08T12:56:48.554441+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[916]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=2367 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=915 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-08T12:56:50.189175+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-08T13:05:01.058017+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[73204]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:05:01.059434+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[73204]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:05:03.209490+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[916]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=2367 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=915 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-08T13:07:17.321167+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Lid closed.
+2025-05-08T13:08:55.054094+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Lid opened.
+2025-05-08T13:08:58.823145+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Lid closed.
+2025-05-08T13:15:01.063615+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[74999]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:15:01.065046+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[74999]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:17:01.067956+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[75187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:17:01.069396+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[75187]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:25:01.073228+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[75936]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:25:01.074640+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[75936]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:30:01.078144+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76367]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:30:01.079060+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76367]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:35:01.082933+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76767]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:35:01.084421+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76767]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:45:01.088893+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[77592]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:45:01.090282+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[77592]: pam_unix(cron:session): session closed for user root
+2025-05-08T13:55:01.094535+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78379]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T13:55:01.095995+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78379]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:05:01.100596+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79137]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:05:01.102026+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79137]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:15:01.106800+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79986]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:15:01.108348+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79986]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:17:01.111270+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[80131]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:17:01.112532+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[80131]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:20:49.173222+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Lid opened.
+2025-05-08T14:21:03.079517+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-08T14:25:01.116236+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[81454]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:25:01.117590+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[81454]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:30:01.121300+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[82424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:30:01.122002+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[82424]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:35:01.125335+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[83526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:35:01.126742+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[83526]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:35:04.062169+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-08T14:45:01.131169+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[85506]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:45:01.132628+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[85506]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:55:01.136489+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[87208]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T14:55:01.137911+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[87208]: pam_unix(cron:session): session closed for user root
+2025-05-08T14:56:52.886505+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-08T14:56:52.888863+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[88131]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-08T15:05:01.141798+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[90282]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:05:01.143198+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[90282]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:13:12.532376+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[916]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=2367 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=915 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-08T15:15:01.148116+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[92278]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:15:01.149586+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[92278]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:17:01.152512+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[92609]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:17:01.154073+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[92609]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:25:01.157678+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[94461]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:25:01.159187+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[94461]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:30:01.162367+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[95349]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:30:01.163497+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[95349]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:35:01.166781+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[96359]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:35:01.169071+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[96359]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:37:18.713243+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-08T15:37:21.935246+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[916]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=2367 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=915 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-08T15:37:23.882100+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-08T15:45:01.173923+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[98249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:45:01.177622+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[98249]: pam_unix(cron:session): session closed for user root
+2025-05-08T15:55:01.184714+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[99951]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T15:55:01.186388+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[99951]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:05:01.189897+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[101571]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:05:01.191489+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[101571]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:15:01.195165+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[103235]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:15:01.196930+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[103235]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:17:01.199736+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[103605]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:17:01.203169+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[103605]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:25:01.217653+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[105095]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:25:01.221076+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[105095]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:30:01.224286+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[106040]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:30:01.226456+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[106040]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:35:01.229065+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[106953]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:35:01.230426+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[106953]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:45:01.234653+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[108582]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-08T16:45:01.236346+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[108582]: pam_unix(cron:session): session closed for user root
+2025-05-08T16:45:14.157164+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2369]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-05-08T16:47:06.874970+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[916]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=2367 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=915 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-08T16:47:13.687598+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: The system will power off now!
+2025-05-08T16:47:13.882221+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: System is powering down.
+2025-05-08T16:47:13.905301+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session closed for user clinton
+2025-05-09T06:38:22.004843+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-09T06:38:22.005751+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-09T06:38:22.010031+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Finished loading, compiling and executing 16 rules
+2025-05-09T06:38:22.011248+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-09T06:38:22.022725+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-09T06:38:22.023369+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-09T06:38:22.029948+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-09T06:38:22.029979+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-09T06:38:22.029996+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-09T06:38:22.030014+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-09T06:38:22.030030+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-09T06:38:22.030049+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: New seat seat0.
+2025-05-09T06:38:22.033124+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: New session c1 of user gdm.
+2025-05-09T06:38:26.295101+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-09T06:45:01.609983+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2434]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T06:45:01.611603+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2434]: pam_unix(cron:session): session closed for user root
+2025-05-09T06:53:58.937787+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-09T06:53:58.937862+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-09T06:53:58.942411+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-09T06:53:58.963920+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: New session 3 of user clinton.
+2025-05-09T06:53:58.977105+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-09T06:53:59.218228+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T06:54:01.177450+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2500]: The Secret Service was already initialized
+2025-05-09T06:54:01.177646+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2783]: discover_other_daemon: 1
+2025-05-09T06:54:01.179894+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2500]: The PKCS#11 component was already initialized
+2025-05-09T06:54:01.180036+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2787]: discover_other_daemon: 1
+2025-05-09T06:54:01.180248+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2788]: discover_other_daemon: 1
+2025-05-09T06:54:02.412575+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Registered Authentication Agent for unix-session:3 (system bus name :1.86 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-09T06:54:03.742598+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-09T06:54:03.889122+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-09T06:54:03.892591+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Session c1 logged out. Waiting for processes to exit.
+2025-05-09T06:54:03.893161+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Removed session c1.
+2025-05-09T06:54:14.112485+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-05-09T06:54:16.442382+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2500]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-05-09T06:55:01.619814+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[4068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T06:55:01.622383+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[4068]: pam_unix(cron:session): session closed for user root
+2025-05-09T06:55:04.279377+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-09T06:55:04.279875+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[4168]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-09T07:05:01.627762+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[6063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:05:01.629427+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[6063]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:07:02.746915+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-09T07:07:02.747414+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[6369]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-09T07:14:52.283657+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T07:15:01.634159+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8696]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:15:01.635736+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8696]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:17:01.638237+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[9353]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:17:01.641896+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[9353]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:25:01.645247+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10746]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:25:01.647084+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10746]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:30:01.650380+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11813]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:30:01.651591+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11813]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:35:01.655021+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[12626]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:35:01.657767+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[12626]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:45:01.662405+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[14310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:45:01.664037+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[14310]: pam_unix(cron:session): session closed for user root
+2025-05-09T07:55:01.668259+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16389]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T07:55:01.669659+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16389]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:04:54.789539+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T08:05:01.673314+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18480]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:05:01.674768+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18480]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:15:01.679637+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19821]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:15:01.681071+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19821]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:17:01.683673+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:17:01.684972+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19950]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:18:24.182590+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.82" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T08:24:27.949332+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T08:25:01.688819+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[20767]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:25:01.690190+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[20767]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:30:01.693531+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[21705]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:30:01.694628+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[21705]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:35:01.698541+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[22091]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:35:01.699959+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[22091]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:36:32.219710+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T08:45:01.704533+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[23990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:45:01.705995+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[23990]: pam_unix(cron:session): session closed for user root
+2025-05-09T08:50:41.922160+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T08:50:45.206902+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.82" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T08:50:46.781835+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T08:50:50.160755+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.82" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T08:55:01.710068+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25833]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T08:55:01.711517+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25833]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:05:01.716853+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27103]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:05:01.718149+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27103]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:09:07.707183+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T09:10:41.597751+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event20 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T09:15:01.722164+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[28751]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:15:01.723746+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[28751]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:17:01.726648+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[29112]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:17:01.728161+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[29112]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:25:01.732414+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[30749]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:25:01.734166+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[30749]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:30:01.737274+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:30:01.738547+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31735]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:35:01.741890+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[32475]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:35:01.743424+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[32475]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:45:01.746995+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[33863]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:45:01.748856+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[33863]: pam_unix(cron:session): session closed for user root
+2025-05-09T09:51:47.070067+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.82" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T09:55:01.756715+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[35894]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T09:55:01.759900+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[35894]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:05:01.763997+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[37624]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:05:01.765595+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[37624]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:15:01.769934+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[38309]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:15:01.771427+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[38309]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:17:01.774194+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[38410]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:17:01.777704+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[38410]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:25:01.781435+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39036]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:25:01.782867+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39036]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:30:01.786015+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:30:01.787087+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39394]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:35:01.790632+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39737]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:35:01.792102+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39737]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:45:01.795786+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40429]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:45:01.797189+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40429]: pam_unix(cron:session): session closed for user root
+2025-05-09T10:55:01.800884+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[41104]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T10:55:01.802397+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[41104]: pam_unix(cron:session): session closed for user root
+2025-05-09T11:05:01.806515+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[41820]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T11:05:01.808133+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[41820]: pam_unix(cron:session): session closed for user root
+2025-05-09T11:13:59.371340+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Lid closed.
+2025-05-09T11:14:05.945165+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Suspending...
+2025-05-09T11:14:13.643189+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Lid opened.
+2025-05-09T11:14:14.369113+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Operation 'suspend' finished.
+2025-05-09T11:15:05.472633+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42791]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T11:15:05.474973+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42791]: pam_unix(cron:session): session closed for user root
+2025-05-09T11:17:01.478483+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42982]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T11:17:01.480265+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42982]: pam_unix(cron:session): session closed for user root
+2025-05-09T11:23:45.818592+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Lid closed.
+2025-05-09T11:23:45.820021+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Suspending...
+2025-05-09T11:43:51.670243+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Lid opened.
+2025-05-09T11:43:52.378886+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Operation 'suspend' finished.
+2025-05-09T11:44:00.865165+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T11:44:04.019170+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[43989]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T11:44:04.020854+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[43989]: pam_unix(cron:session): session closed for user root
+2025-05-09T11:44:08.449425+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event9 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T11:44:11.792560+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.180" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T11:44:13.413876+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event9 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T11:45:01.024129+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[44203]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T11:45:01.025853+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[44203]: pam_unix(cron:session): session closed for user root
+2025-05-09T11:45:28.225868+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.180" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T11:55:01.033299+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[45879]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T11:55:01.036129+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[45879]: pam_unix(cron:session): session closed for user root
+2025-05-09T12:01:49.165011+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: The system will suspend now!
+2025-05-09T12:03:35.873344+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Power key pressed short.
+2025-05-09T12:03:36.398889+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Operation 'suspend' finished.
+2025-05-09T12:03:45.040964+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T12:03:51.763069+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Lid closed.
+2025-05-09T12:04:02.679765+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Suspending...
+2025-05-09T13:32:24.616770+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Lid opened.
+2025-05-09T13:32:25.334916+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Operation 'suspend' finished.
+2025-05-09T13:32:34.314419+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T13:32:46.511723+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event9 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T13:32:50.014639+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.197" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T13:33:19.230961+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47382]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T13:33:19.232392+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47382]: pam_unix(cron:session): session closed for user root
+2025-05-09T13:33:19.236223+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47384]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T13:33:19.238338+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47384]: pam_unix(cron:session): session closed for user root
+2025-05-09T13:33:53.130241+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Watching system buttons on /dev/input/event9 (oraimo AirBuds 4 (AVRCP))
+2025-05-09T13:33:56.380464+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH dbus-daemon[914]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.197" (uid=1000 pid=2495 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=913 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-05-09T13:35:01.242142+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T13:35:01.244440+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[47789]: pam_unix(cron:session): session closed for user root
+2025-05-09T13:45:01.248778+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49027]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T13:45:01.250862+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49027]: pam_unix(cron:session): session closed for user root
+2025-05-09T13:47:49.969485+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: The system will suspend now!
+2025-05-09T15:22:30.379864+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Operation 'suspend' finished.
+2025-05-09T15:22:37.587686+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T15:22:37.588595+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49631]: pam_unix(cron:session): session closed for user root
+2025-05-09T15:22:55.096302+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T15:25:01.591164+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[50327]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T15:25:01.592791+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[50327]: pam_unix(cron:session): session closed for user root
+2025-05-09T15:30:01.595898+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51457]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T15:30:01.596925+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51457]: pam_unix(cron:session): session closed for user root
+2025-05-09T15:35:01.600006+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[52410]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T15:35:01.601606+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[52410]: pam_unix(cron:session): session closed for user root
+2025-05-09T15:45:01.605443+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[54392]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T15:45:01.606759+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[54392]: pam_unix(cron:session): session closed for user root
+2025-05-09T15:55:01.611157+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[55502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-09T15:55:01.612688+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[55502]: pam_unix(cron:session): session closed for user root
+2025-05-09T15:59:04.959763+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: Power key pressed short.
+2025-05-09T15:59:24.478674+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-09T15:59:42.640844+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: The system will power off now!
+2025-05-09T15:59:42.664708+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[954]: System is powering down.
+2025-05-09T15:59:42.693223+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session closed for user clinton
+2025-05-12T06:30:46.292806+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-12T06:30:46.294359+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-12T06:30:46.296332+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Finished loading, compiling and executing 16 rules
+2025-05-12T06:30:46.297587+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-12T06:30:46.528268+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-12T06:30:46.528312+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-12T06:30:46.528346+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-12T06:30:46.528376+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-12T06:30:46.528410+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-12T06:30:46.528439+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: New seat seat0.
+2025-05-12T06:30:46.603756+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-12T06:30:46.610292+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: New session c1 of user gdm.
+2025-05-12T06:30:46.643939+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-12T06:30:50.866844+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-12T06:35:01.350134+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2425]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T06:35:01.352541+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2425]: pam_unix(cron:session): session closed for user root
+2025-05-12T06:45:01.358804+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2503]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T06:45:01.360395+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[2503]: pam_unix(cron:session): session closed for user root
+2025-05-12T06:45:02.442318+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-12T06:45:02.442434+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-12T06:45:02.449483+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-12T06:45:02.462719+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: New session 4 of user clinton.
+2025-05-12T06:45:02.476258+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-12T06:45:02.719209+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T06:45:04.677812+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2536]: The Secret Service was already initialized
+2025-05-12T06:45:04.678122+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2821]: discover_other_daemon: 1
+2025-05-12T06:45:04.679891+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2536]: The PKCS#11 component was already initialized
+2025-05-12T06:45:04.680050+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2823]: discover_other_daemon: 1
+2025-05-12T06:45:04.680223+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2825]: discover_other_daemon: 1
+2025-05-12T06:45:05.917678+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Registered Authentication Agent for unix-session:4 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-12T06:45:07.267909+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-12T06:45:07.378429+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-12T06:45:07.382604+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Session c1 logged out. Waiting for processes to exit.
+2025-05-12T06:45:07.383039+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: Removed session c1.
+2025-05-12T06:45:10.952711+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2536]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-05-12T06:45:17.585159+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-05-12T06:46:08.222960+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:46:08.223669+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[4472]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T06:54:57.415399+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-12T06:54:57.415702+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:55:01.364338+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[7768]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T06:55:01.365921+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[7768]: pam_unix(cron:session): session closed for user root
+2025-05-12T06:55:03.543933+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:55:06.880912+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:55:06.881393+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[7798]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T06:55:11.787685+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/apt install clamav
+2025-05-12T06:55:11.788151+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:55:16.526359+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[8053]: group added to /etc/group: name=clamav, GID=125
+2025-05-12T06:55:16.530312+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[8053]: group added to /etc/gshadow: name=clamav
+2025-05-12T06:55:16.531198+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[8053]: new group: name=clamav, GID=125
+2025-05-12T06:55:16.542436+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH useradd[8060]: new user: name=clamav, UID=123, GID=125, home=/var/lib/clamav, shell=/bin/false, from=/dev/pts/2
+2025-05-12T06:55:19.033893+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:55:25.079232+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/freshclam
+2025-05-12T06:55:25.079606+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:55:25.088448+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:56:11.886984+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/systemctl stop clamav-freshclam
+2025-05-12T06:56:11.890482+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:56:11.896369+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:56:17.074545+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/freshclam
+2025-05-12T06:56:17.075208+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:56:17.084273+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:56:29.043576+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/systemctl start clamav-freshclam
+2025-05-12T06:56:29.043904+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:56:29.062880+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:56:46.424969+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/bin/apt install chkrootkit
+2025-05-12T06:56:46.425423+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:56:59.609461+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[9110]: group added to /etc/group: name=postfix, GID=126
+2025-05-12T06:56:59.611829+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[9110]: group added to /etc/gshadow: name=postfix
+2025-05-12T06:56:59.612612+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[9110]: new group: name=postfix, GID=126
+2025-05-12T06:56:59.656022+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH useradd[9121]: new user: name=postfix, UID=124, GID=126, home=/var/spool/postfix, shell=/usr/sbin/nologin, from=none
+2025-05-12T06:56:59.726903+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[9168]: group added to /etc/group: name=postdrop, GID=127
+2025-05-12T06:56:59.729069+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[9168]: group added to /etc/gshadow: name=postdrop
+2025-05-12T06:56:59.729802+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH groupadd[9168]: new group: name=postdrop, GID=127
+2025-05-12T06:57:06.838553+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:57:29.503522+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/1 ; PWD=/home/clinton ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2025-05-12T06:57:29.503819+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:57:36.139585+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T06:58:06.695993+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T06:58:06.696496+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH pkexec[10564]: clinton: Executing command [USER=root] [TTY=unknown] [CWD=/home/clinton] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T07:05:01.370131+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[13334]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:05:01.372318+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[13334]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:15:01.376625+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[15395]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:15:01.377979+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[15395]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:17:01.380883+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[15714]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:17:01.382336+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[15714]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:25:01.385753+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[17249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:25:01.387473+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[17249]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:30:01.390650+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18127]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:30:01.392243+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18127]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:35:01.395860+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19052]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:35:01.397458+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19052]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:37:28.615053+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-12T07:37:28.616744+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:37:31.266572+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:39:22.828137+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T07:39:34.168538+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2025-05-12T07:39:34.168938+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:40:03.816632+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Reloading rules
+2025-05-12T07:40:03.817067+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Collecting garbage unconditionally...
+2025-05-12T07:40:03.817234+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-12T07:40:03.817270+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-12T07:40:03.818651+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Finished loading, compiling and executing 16 rules
+2025-05-12T07:40:03.818702+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Reloading rules
+2025-05-12T07:40:03.818734+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Collecting garbage unconditionally...
+2025-05-12T07:40:03.818765+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-12T07:40:03.818798+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-12T07:40:03.820318+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Finished loading, compiling and executing 16 rules
+2025-05-12T07:40:04.093969+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Reloading rules
+2025-05-12T07:40:04.094059+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Collecting garbage unconditionally...
+2025-05-12T07:40:04.094097+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-12T07:40:04.094129+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-12T07:40:04.095810+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Finished loading, compiling and executing 16 rules
+2025-05-12T07:40:04.096007+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Reloading rules
+2025-05-12T07:40:04.096047+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Collecting garbage unconditionally...
+2025-05-12T07:40:04.096069+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-12T07:40:04.096089+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-12T07:40:04.097500+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[939]: Finished loading, compiling and executing 16 rules
+2025-05-12T07:40:18.076123+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:42:17.003090+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/mkdir -p -m 755 /etc/apt/keyrings
+2025-05-12T07:42:17.006609+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:42:17.006645+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:42:18.213053+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/keyrings/githubcli-archive-keyring.gpg
+2025-05-12T07:42:18.213506+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:42:18.215355+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:42:18.220090+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg
+2025-05-12T07:42:18.220472+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:42:18.221607+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:42:18.226080+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/github-cli.list
+2025-05-12T07:42:18.226522+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:42:18.227842+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:42:18.232728+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-12T07:42:18.233093+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:42:24.921654+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:42:24.927203+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/apt install gh -y
+2025-05-12T07:42:24.927520+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:42:31.781876+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:43:02.814385+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-12T07:43:02.814714+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:43:05.557099+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:43:12.112303+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/2 ; PWD=/home/clinton/cymelle/yasil-fleet ; USER=root ; COMMAND=/usr/bin/apt install gh
+2025-05-12T07:43:12.112612+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-12T07:43:12.651970+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T07:45:01.400898+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25121]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:45:01.402469+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25121]: pam_unix(cron:session): session closed for user root
+2025-05-12T07:55:01.406482+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T07:55:01.407914+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27193]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:05:01.413527+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[29546]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:05:01.414958+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[29546]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:15:01.418853+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31294]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:15:01.420417+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31294]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:17:01.423260+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31654]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:17:01.425117+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[31654]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:25:01.428501+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[32970]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:25:01.429894+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[32970]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:30:01.432905+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[33804]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:30:01.433908+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[33804]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:35:01.437095+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[34689]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:35:01.439204+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[34689]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:45:01.444711+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[36601]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:45:01.446717+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[36601]: pam_unix(cron:session): session closed for user root
+2025-05-12T08:55:01.450959+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[38551]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T08:55:01.452458+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[38551]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:05:01.457478+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39771]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:05:01.458995+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[39771]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:15:01.464796+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40129]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:15:01.466319+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40129]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:17:01.469746+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40214]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:17:01.471183+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40214]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:25:01.476959+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40509]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:25:01.478508+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40509]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:30:01.483004+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40695]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:30:01.484133+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[40695]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:34:03.629175+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T09:35:01.488642+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[41179]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:35:01.490807+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[41179]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:45:01.496079+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42948]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:45:01.497459+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[42948]: pam_unix(cron:session): session closed for user root
+2025-05-12T09:55:01.502819+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[44845]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T09:55:01.504287+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[44845]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:05:01.509827+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[46315]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:05:01.511497+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[46315]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:15:01.517048+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[48393]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:15:01.518533+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[48393]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:17:01.521865+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[48700]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:17:01.523352+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[48700]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:25:01.529401+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49899]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:25:01.535706+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[49899]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:30:01.540224+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[50628]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:30:01.541410+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[50628]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:35:01.546248+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51415]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:35:01.549244+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[51415]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:45:01.553087+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[52925]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:45:01.555548+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[52925]: pam_unix(cron:session): session closed for user root
+2025-05-12T10:55:01.559944+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[54775]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T10:55:01.563026+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[54775]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:05:01.567681+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[56811]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:05:01.570631+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[56811]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:15:01.575981+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[58499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:15:01.579420+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[58499]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:17:01.583798+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[58876]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:17:01.585362+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[58876]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:25:01.588990+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[60206]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:25:01.590438+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[60206]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:30:01.595476+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[61105]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:30:01.598117+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[61105]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:35:01.601587+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[61536]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:35:01.602998+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[61536]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:39:10.481229+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T11:45:01.612761+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[62720]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:45:01.614350+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[62720]: pam_unix(cron:session): session closed for user root
+2025-05-12T11:55:01.618792+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[64526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T11:55:01.620114+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[64526]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:05:01.624976+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[66167]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:05:01.626508+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[66167]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:15:01.630906+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[67401]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:15:01.632684+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[67401]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:17:01.635796+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[67499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:17:01.637597+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[67499]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:20:38.318934+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T12:25:01.650798+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[68539]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:25:01.652378+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[68539]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:30:01.659619+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[69475]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:30:01.661436+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[69475]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:35:01.664771+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[70304]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:35:01.668354+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[70304]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:45:01.673041+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[71895]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:45:01.674616+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[71895]: pam_unix(cron:session): session closed for user root
+2025-05-12T12:55:01.685842+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[74471]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T12:55:01.689295+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[74471]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:05:01.693337+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76145]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:05:01.694849+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76145]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:15:01.699755+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76529]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:15:01.701690+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76529]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:17:01.704663+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76607]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:17:01.708527+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76607]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:25:01.712955+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76890]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:25:01.714505+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[76890]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:30:01.717745+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[77040]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:30:01.718748+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[77040]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:35:01.722511+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[77755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:35:01.723896+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[77755]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:45:01.728143+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78111]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:45:01.729623+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78111]: pam_unix(cron:session): session closed for user root
+2025-05-12T13:55:01.734675+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78544]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T13:55:01.736277+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78544]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:05:01.740686+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78933]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:05:01.744107+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[78933]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:15:01.748578+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79345]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:15:01.750005+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79345]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:17:01.752917+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79431]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:17:01.754375+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79431]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:25:01.758389+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79721]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:25:01.759792+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79721]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:30:01.763507+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79869]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:30:01.764619+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[79869]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:34:04.842079+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T14:35:01.767733+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[80253]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:35:01.769187+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[80253]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:45:01.773471+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[81773]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:45:01.775020+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[81773]: pam_unix(cron:session): session closed for user root
+2025-05-12T14:55:01.779215+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[83378]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T14:55:01.780778+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[83378]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:05:01.784835+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[83910]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:05:01.786344+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[83910]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:11:06.943855+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=clinton uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=clinton
+2025-05-12T15:11:13.055802+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T15:15:01.791305+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[84918]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:15:01.792910+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[84918]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:17:01.795717+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[85241]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:17:01.797155+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[85241]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:25:01.800577+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[86870]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:25:01.801981+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[86870]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:30:01.805610+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[87539]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:30:01.806644+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[87539]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:35:01.811210+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[88222]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:35:01.812623+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[88222]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:38:58.697867+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T15:45:01.818399+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[89604]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:45:01.821400+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[89604]: pam_unix(cron:session): session closed for user root
+2025-05-12T15:55:01.825721+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[91189]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T15:55:01.827406+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[91189]: pam_unix(cron:session): session closed for user root
+2025-05-12T16:05:01.831510+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[92902]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T16:05:01.833038+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[92902]: pam_unix(cron:session): session closed for user root
+2025-05-12T16:15:01.844334+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[94573]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T16:15:01.846547+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[94573]: pam_unix(cron:session): session closed for user root
+2025-05-12T16:17:01.849313+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[94846]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T16:17:01.853139+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[94846]: pam_unix(cron:session): session closed for user root
+2025-05-12T16:25:01.856470+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[96090]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T16:25:01.858134+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[96090]: pam_unix(cron:session): session closed for user root
+2025-05-12T16:29:39.418827+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: The system will power off now!
+2025-05-12T16:29:39.617119+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[972]: System is powering down.
+2025-05-12T16:29:39.639338+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session closed for user clinton
+2025-05-13T06:50:02.364416+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[1197]: Finished loading, compiling and executing 16 rules
+2025-05-13T06:50:02.365307+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[1197]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-13T06:54:36.600386+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-13T06:54:36.600519+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-13T06:54:36.601005+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Finished loading, compiling and executing 16 rules
+2025-05-13T06:54:36.601517+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-13T06:54:36.836281+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-13T06:54:36.836318+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-13T06:54:36.836338+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-13T06:54:36.836355+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-13T06:54:36.836371+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-13T06:54:36.836388+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: New seat seat0.
+2025-05-13T06:54:38.017976+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-13T06:54:38.024472+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: New session c1 of user gdm.
+2025-05-13T06:54:38.063530+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-13T06:54:43.416276+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-13T06:54:54.659593+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-13T06:54:54.659689+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-13T06:54:54.666777+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-13T06:54:54.671179+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: New session 2 of user clinton.
+2025-05-13T06:54:54.698483+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-13T06:54:54.940238+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T06:54:56.768513+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2349]: The Secret Service was already initialized
+2025-05-13T06:54:56.768678+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2636]: discover_other_daemon: 1
+2025-05-13T06:54:56.770772+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2349]: The PKCS#11 component was already initialized
+2025-05-13T06:54:56.771023+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2638]: discover_other_daemon: 1
+2025-05-13T06:54:56.771184+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2640]: discover_other_daemon: 1
+2025-05-13T06:54:57.939444+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Registered Authentication Agent for unix-session:2 (system bus name :1.88 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-13T06:54:59.308246+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-13T06:54:59.439268+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-13T06:54:59.443389+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Session c1 logged out. Waiting for processes to exit.
+2025-05-13T06:54:59.444170+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: Removed session c1.
+2025-05-13T06:55:01.789991+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[3394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T06:55:01.791639+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[3394]: pam_unix(cron:session): session closed for user root
+2025-05-13T06:55:03.743993+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2349]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-05-13T06:55:09.690995+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-05-13T07:05:01.796364+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[5939]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:05:01.797789+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[5939]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:15:01.802632+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8103]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:15:01.804099+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8103]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:17:01.806983+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8419]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:17:01.810506+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[8419]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:25:01.814488+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10682]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:25:01.816155+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10682]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:30:01.819369+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11881]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:30:01.820384+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11881]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:35:01.824440+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[12594]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:35:01.826396+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[12594]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:45:01.830136+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[14985]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:45:01.831642+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[14985]: pam_unix(cron:session): session closed for user root
+2025-05-13T07:55:01.836743+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16560]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T07:55:01.838324+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16560]: pam_unix(cron:session): session closed for user root
+2025-05-13T08:05:01.846222+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T08:05:01.847714+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19071]: pam_unix(cron:session): session closed for user root
+2025-05-13T08:05:37.647423+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-05-13T08:05:45.084052+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Operator of unix-session:2 successfully authenticated as unix-user:clinton to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:19297:423963 [/snap/snap-store/1270/bin/snap-store] (owned by unix-user:clinton)
+2025-05-13T08:08:28.114960+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-05-13T08:08:31.977582+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[926]: Operator of unix-session:2 successfully authenticated as unix-user:clinton to gain TEMPORARY authorization for action io.snapcraft.snapd.manage-interfaces for unix-process:20953:443708 [snap connect transitionsdj:removable-media] (owned by unix-user:clinton)
+2025-05-13T08:13:47.658947+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: The system will power off now!
+2025-05-13T08:13:47.699836+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[948]: System is powering down.
+2025-05-13T08:13:47.733746+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session closed for user clinton
+2025-05-13T08:18:07.559192+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[943]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-13T08:18:07.559454+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[943]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-13T08:18:07.563770+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[943]: Finished loading, compiling and executing 16 rules
+2025-05-13T08:18:07.565265+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[943]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-13T08:18:08.370561+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-13T08:18:08.370605+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-13T08:18:08.370637+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-13T08:18:08.370666+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-13T08:18:08.370701+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-13T08:18:08.370763+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: New seat seat0.
+2025-05-13T08:18:08.953456+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-13T08:18:09.003843+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[963]: New session c1 of user gdm.
+2025-05-13T08:18:09.056153+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-13T08:22:57.599751+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-13T08:22:57.599920+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-13T08:22:57.600085+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Finished loading, compiling and executing 16 rules
+2025-05-13T08:22:57.600634+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-13T08:22:58.401059+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event3 (Power Button)
+2025-05-13T08:22:58.401088+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-05-13T08:22:58.401107+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2025-05-13T08:22:58.401125+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-05-13T08:22:58.401145+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+2025-05-13T08:22:58.401166+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: New seat seat0.
+2025-05-13T08:22:58.966118+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-13T08:22:58.990844+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: New session c1 of user gdm.
+2025-05-13T08:22:59.014886+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-13T08:23:04.273235+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Registered Authentication Agent for unix-session:c1 (system bus name :1.47 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-13T08:24:33.045220+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=clinton
+2025-05-13T08:24:37.597625+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-13T08:24:37.597686+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-13T08:24:37.603855+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: pam_unix(gdm-password:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-13T08:24:37.622790+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: New session 2 of user clinton.
+2025-05-13T08:24:37.635731+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (systemd): pam_unix(systemd-user:session): session opened for user clinton(uid=1000) by clinton(uid=0)
+2025-05-13T08:24:37.866512+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T08:24:39.817269+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2375]: The Secret Service was already initialized
+2025-05-13T08:24:39.817556+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2662]: discover_other_daemon: 1
+2025-05-13T08:24:39.819902+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2375]: The PKCS#11 component was already initialized
+2025-05-13T08:24:39.820037+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2665]: discover_other_daemon: 1
+2025-05-13T08:24:39.820261+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2666]: discover_other_daemon: 1
+2025-05-13T08:24:41.042261+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Registered Authentication Agent for unix-session:2 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-13T08:24:42.388926+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH polkitd[929]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.47, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-13T08:24:42.525299+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-13T08:24:42.528835+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Session c1 logged out. Waiting for processes to exit.
+2025-05-13T08:24:42.529557+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH systemd-logind[945]: Removed session c1.
+2025-05-13T08:24:52.772485+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-05-13T08:25:01.762490+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[3498]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T08:25:01.764148+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[3498]: pam_unix(cron:session): session closed for user root
+2025-05-13T08:25:14.866823+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gnome-keyring-daemon[2375]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-05-13T08:30:01.768395+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[4853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T08:30:01.769422+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[4853]: pam_unix(cron:session): session closed for user root
+2025-05-13T08:35:01.773512+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[5566]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T08:35:01.775041+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[5566]: pam_unix(cron:session): session closed for user root
+2025-05-13T08:45:01.781050+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[7235]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T08:45:01.782581+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[7235]: pam_unix(cron:session): session closed for user root
+2025-05-13T08:55:01.787691+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[9310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T08:55:01.789067+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[9310]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:05:01.794859+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10505]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:05:01.796219+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10505]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:15:01.802210+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10740]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:15:01.803822+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10740]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:17:01.807075+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10793]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:17:01.808828+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[10793]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:18:40.151357+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T09:25:01.812560+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11989]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:25:01.813838+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[11989]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:30:01.817272+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[12669]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:30:01.818353+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[12669]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:32:59.249115+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/chmod +x universal-update.sh
+2025-05-13T09:32:59.249624+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T09:32:59.250909+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T09:35:01.822728+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[13257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:35:01.824283+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[13257]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:36:45.732558+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T09:38:21.550366+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-13T09:38:21.551743+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T09:38:32.035234+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T09:38:32.041867+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-05-13T09:38:32.042318+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T09:39:21.082234+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T09:44:39.956509+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-13T09:44:39.960406+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T09:44:47.000097+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T09:44:47.004018+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-05-13T09:44:47.004459+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T09:44:47.615689+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T09:45:01.828287+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[15583]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:45:01.830473+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[15583]: pam_unix(cron:session): session closed for user root
+2025-05-13T09:55:01.835676+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16720]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T09:55:01.837256+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[16720]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:05:01.842935+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18036]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:05:01.844483+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[18036]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:15:01.850726+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19297]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:15:01.852151+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19297]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:17:01.855600+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19547]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:17:01.857059+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[19547]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:25:01.862192+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[20362]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:25:01.863671+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[20362]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:30:01.867542+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[20493]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:30:01.868554+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[20493]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:32:44.324874+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T10:35:01.873058+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[21171]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:35:01.874725+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[21171]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:45:01.880611+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[22448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:45:01.882313+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[22448]: pam_unix(cron:session): session closed for user root
+2025-05-13T10:53:40.218717+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T10:55:01.887413+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[23213]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T10:55:01.889051+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[23213]: pam_unix(cron:session): session closed for user root
+2025-05-13T11:01:28.132879+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-13T11:01:28.136217+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T11:01:31.221170+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T11:01:31.225614+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-05-13T11:01:31.226065+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T11:01:31.790479+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T11:05:01.894050+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25362]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T11:05:01.895703+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[25362]: pam_unix(cron:session): session closed for user root
+2025-05-13T11:14:54.134364+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/chmod +x loop.sh
+2025-05-13T11:14:54.137440+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)
+2025-05-13T11:14:54.137472+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T11:15:01.901080+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T11:15:01.902759+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27068]: pam_unix(cron:session): session closed for user root
+2025-05-13T11:17:01.905824+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27353]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T11:17:01.907091+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH CRON[27353]: pam_unix(cron:session): session closed for user root
+2025-05-13T11:22:13.027750+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo:  clinton : TTY=pts/0 ; PWD=/home/clinton/sandbox/bashscript-tuts ; USER=root ; COMMAND=/usr/bin/cp /var/log/alternatives.log /var/log/apport.log /var/log/auth.log /var/log/boot.log /var/log/bootstrap.log /var/log/cloud-init.log /var/log/cloud-init-output.log /var/log/dpkg.log /var/log/fontconfig.log /var/log/gpu-manager.log /var/log/kern.log /var/log/mail.log /var/log/ubuntu-advantage-apt-hook.log /var/log/Xorg.0.log /var/log/Xorg.1.log logfiles/
+2025-05-13T11:22:13.028221+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by clinton(uid=1000)

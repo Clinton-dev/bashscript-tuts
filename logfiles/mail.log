@@ -1,0 +1,2 @@
+2025-05-13T07:24:43.245694+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH postfix/sendmail[10604]: fatal: open /etc/postfix/main.cf: No such file or directory
+2025-05-13T08:53:03.586833+03:00 clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH postfix/sendmail[8985]: fatal: open /etc/postfix/main.cf: No such file or directory

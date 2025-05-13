@@ -1,0 +1,8 @@
+ERROR: apport (pid 13904) 2025-05-13 07:39:21,072: host pid 13898 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 13911) 2025-05-13 07:39:21,380: host pid 13905 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 13918) 2025-05-13 07:39:21,724: host pid 13912 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 13925) 2025-05-13 07:39:22,459: host pid 13919 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 13932) 2025-05-13 07:39:22,811: host pid 13926 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 14120) 2025-05-13 07:40:20,540: host pid 14114 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 18985) 2025-05-13 08:04:28,125: host pid 18968 crashed in a separate mount namespace, ignoring
+ERROR: apport (pid 22512) 2025-05-13 08:13:47,932: host pid 13439 crashed in a separate mount namespace, ignoring

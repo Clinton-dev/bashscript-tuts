@@ -1,0 +1,92 @@
+Cloud-init v. 24.1.3-0ubuntu3.3 running 'init-local' at Thu, 30 Jan 2025 13:16:50 +0000. Up 2.16 seconds.
+Cloud-init v. 24.1.3-0ubuntu3.3 running 'init' at Thu, 30 Jan 2025 13:17:01 +0000. Up 13.20 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+------------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+------------------------------+---------------+--------+-------------------+
+ci-info: | enp5s0 | False |              .               |       .       |   .    | 50:eb:f6:93:c8:d6 |
+ci-info: |   lo   |  True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128            |       .       |  host  |         .         |
+ci-info: | wlp4s0 |  True |        192.168.1.109         | 255.255.255.0 | global | 14:13:33:69:f7:c7 |
+ci-info: | wlp4s0 |  True | fe80::7516:cf9f:53b4:70f0/64 |       .       |  link  | 14:13:33:69:f7:c7 |
+ci-info: +--------+-------+------------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |    0.0.0.0    |   wlp4s0  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   | 255.255.255.0 |   wlp4s0  |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |   wlp4s0  |   U   |
+ci-info: |   2   |    local    |    ::   |   wlp4s0  |   U   |
+ci-info: |   3   |  multicast  |    ::   |   wlp4s0  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2025-01-30 13:17:01,985 - activators.py[WARNING]: Running ['netplan', 'apply'] resulted in stderr output: 
+** (generate:1520): WARNING **: 13:17:01.361: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:1519): WARNING **: 13:17:01.804: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:1519): WARNING **: 13:17:01.951: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:j8rp/T/6g2mA/Jf/cA8Ir+Sxim1bbkmrx5UXZWhG/gc root@clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH
+The key's randomart image is:
++---[RSA 3072]----+
+|             ... |
+|             .+ o|
+|             oEo |
+|              .o |
+|     . .S .  . .o|
+|      o .o.oo.. .|
+|       ..+=B+.o  |
+|     . *o=%+oo o |
+|     .*.*XB=++. .|
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:x6Ky+HNV6dUziWpZGAvW1G25tX+5N1a23bP+Nr/qYb4 root@clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH
+The key's randomart image is:
++---[ECDSA 256]---+
+|         o.. . . |
+|        o o . + .|
+|       . . = + +.|
+|         .= + *. |
+|        Soo=   oo|
+|       ..o=    .=|
+|    . .. .   o .B|
+|   ..o.     o .B=|
+|  ..oo      .E==%|
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:OX2mbDQctKM5zpxhBGai/EgWA5iFDrE3DQt+kiFfDYc root@clinton-ASUS-TUF-Gaming-F15-FX506LH-FX506LH
+The key's randomart image is:
++--[ED25519 256]--+
+|*B= ++=   .      |
+|B=oOE=.. . .     |
+|++X..   . +      |
+| =o+   . * o     |
+|  . .   S = o    |
+|       = B =     |
+|        = +      |
+|         .       |
+|                 |
++----[SHA256]-----+
+Cloud-init v. 24.1.3-0ubuntu3.3 running 'modules:config' at Thu, 30 Jan 2025 13:17:02 +0000. Up 14.61 seconds.
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Cloud-init v. 24.1.3-0ubuntu3.3 running 'modules:final' at Thu, 30 Jan 2025 13:17:10 +0000. Up 22.30 seconds.
+Cloud-init v. 24.1.3-0ubuntu3.3 finished at Thu, 30 Jan 2025 13:17:10 +0000. Datasource DataSourceNone.  Up 22.38 seconds
+2025-01-30 13:17:10,386 - cc_final_message.py[WARNING]: Used fallback datasource
